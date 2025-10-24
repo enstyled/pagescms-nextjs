@@ -14,6 +14,7 @@ content:
       - { name: excerpt, label: Excerpt, type: string }
       - { name: coverImage, label: Cover image, type: image }
       - { name: date, label: Date, type: date, options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" } }
+      - { name: body, label: Body, type: rich-text }
       - name: author
         label: Author
         type: object
@@ -25,4 +26,3 @@ content:
         type: object
         fields:
           - { name: url, label: URL, type: image }
-      - { name: body, label: Body, type: rich-text }
